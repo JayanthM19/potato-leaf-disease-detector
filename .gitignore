@@ -10,8 +10,7 @@ __pycache__/
 *.pyd
 *$py.class
 
-# Ignore dataset directories
-dataset/
+
 
 # Ignore trained model files
 model.h5
