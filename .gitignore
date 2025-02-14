@@ -1,0 +1,44 @@
+# Ignore virtual environment
+myenv/
+.env
+.venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Ignore dataset directories
+dataset/
+
+# Ignore trained model files
+model.h5
+*.h5
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.ckpt
+
+# Ignore logs and debug files
+logs/
+*.log
+debug.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore cache files
+*.cache
+.cache/
+
+# Ignore IDE / editor files
+.vscode/
+.idea/
+*.iml
